@@ -1,0 +1,262 @@
+<section id="features" class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                    <h2>Player</h2>
+                </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-md-12">
+                    <div class="container-fluid">
+					<div class="row">
+				<!--Left Sidebar-->
+				<div class="col-md-3 md-margin-bottom-40">
+					<img class="img-responsive profile-img margin-bottom-20" src="{{PDATA.imageURL}}" width="263" height="265" >
+					<div align="center"><h1><strong>{{PDATA.name}}</strong></h1></div>
+<hr>
+<ul class="list-group">
+<li class="list-group-item"><strong>Country :</strong> {{PDATA.country}}</li>
+<li class="list-group-item"><strong>BowlingStyle :</strong> {{PDATA.bowlingStyle}}</li>
+<li class="list-group-item"><strong>BattingStyle :</strong> {{PDATA.battingStyle}}</li>
+<li class="list-group-item"><strong>PlayingRole :</strong> {{PDATA.playingRole}}</li>
+<li class="list-group-item"><strong>CurrentAge :</strong> {{PDATA.currentAge}}</li>
+<li class="list-group-item"><strong>FullName :</strong> {{PDATA.fullName}}</li>
+
+</ul>
+
+				
+
+					<div class="margin-bottom-50"></div>
+
+				</div>
+				<!--End Left Sidebar-->
+
+				<!-- Profile Content -->
+				<div class="col-md-9">
+					<div>{{PDATA.profile}}</div>
+					
+					<h1>Batting</h1>
+					<table width="100%" border="0" cellspacing="5" class="table table-striped" cellpadding="5">
+  <tr>
+    <td>League</td>
+    <td>50</td>
+    <td>100</td>
+    <td>St</td>
+    <td>Ct</td>
+    <td>6s</td>
+    <td>4s</td>
+    <td>Ave</td>
+    <td>HS</td>
+    <td>Runs</td>
+    <td>NO</td>
+    <td>Inns</td>
+    <td>Mat</td>
+  </tr>
+  <tr>
+    <td>twenty20</td>
+    <td>{{PDATA.data.batting.twenty20.50}}</td>
+    <td>{{PDATA.data.batting.twenty20.100}}</td>
+    <td>{{PDATA.data.batting.twenty20.St}}</td>
+    <td>{{PDATA.data.batting.twenty20.Ct}}</td>
+    <td>{{PDATA.data.batting.twenty20.6s}}</td>
+    <td>{{PDATA.data.batting.twenty20.4s}}</td>
+    <td>{{PDATA.data.batting.twenty20.SR}}</td>
+    <td>{{PDATA.data.batting.twenty20.BF}}</td>
+    <td>{{PDATA.data.batting.twenty20.Ave}}</td>
+    <td>{{PDATA.data.batting.twenty20.HS}}</td>
+    <td>{{PDATA.data.batting.twenty20.Runs}}</td>
+    <td>{{PDATA.data.batting.twenty20.NO}}</td>
+  </tr>
+  <tr>
+    <td>listA</td>
+    <td>{{PDATA.data.batting.listA.50}}</td>
+    <td>{{PDATA.data.batting.listA.100}}</td>
+    <td>{{PDATA.data.batting.listA.St}}</td>
+    <td>{{PDATA.data.batting.listA.Ct}}</td>
+    <td>{{PDATA.data.batting.listA.6s}}</td>
+    <td>{{PDATA.data.batting.listA.4s}}</td>
+    <td>{{PDATA.data.batting.listA.SR}}</td>
+    <td>{{PDATA.data.batting.listA.BF}}</td>
+    <td>{{PDATA.data.batting.listA.Ave}}</td>
+    <td>{{PDATA.data.batting.listA.HS}}</td>
+    <td>{{PDATA.data.batting.listA.Runs}}</td>
+    <td>{{PDATA.data.batting.listA.NO}}</td>
+  </tr>
+  <tr>
+    <td>firstClass</td>
+    <td>{{PDATA.data.batting.firstClass.50}}</td>
+    <td>{{PDATA.data.batting.firstClass.100}}</td>
+    <td>{{PDATA.data.batting.firstClass.St}}</td>
+    <td>{{PDATA.data.batting.firstClass.Ct}}</td>
+    <td>{{PDATA.data.batting.firstClass.6s}}</td>
+    <td>{{PDATA.data.batting.firstClass.4s}}</td>
+    <td>{{PDATA.data.batting.firstClass.SR}}</td>
+    <td>{{PDATA.data.batting.firstClass.BF}}</td>
+    <td>{{PDATA.data.batting.firstClass.Ave}}</td>
+    <td>{{PDATA.data.batting.firstClass.HS}}</td>
+    <td>{{PDATA.data.batting.firstClass.Runs}}</td>
+    <td>{{PDATA.data.batting.firstClass.NO}}</td>
+  </tr>
+  <tr>
+    <td>T20Is</td>
+    <td>{{PDATA.data.batting.T20Is.50}}</td>
+    <td>{{PDATA.data.batting.T20Is.100}}</td>
+    <td>{{PDATA.data.batting.T20Is.St}}</td>
+    <td>{{PDATA.data.batting.T20Is.Ct}}</td>
+    <td>{{PDATA.data.batting.T20Is.6s}}</td>
+    <td>{{PDATA.data.batting.T20Is.4s}}</td>
+    <td>{{PDATA.data.batting.T20Is.SR}}</td>
+    <td>{{PDATA.data.batting.T20Is.BF}}</td>
+    <td>{{PDATA.data.batting.T20Is.Ave}}</td>
+    <td>{{PDATA.data.batting.T20Is.HS}}</td>
+    <td>{{PDATA.data.batting.T20Is.Runs}}</td>
+    <td>{{PDATA.data.batting.T20Is.NO}}</td>
+  </tr>
+  <tr>
+    <td>ODIs</td>
+    <td>{{PDATA.data.batting.ODIs.50}}</td>
+    <td>{{PDATA.data.batting.ODIs.100}}</td>
+    <td>{{PDATA.data.batting.ODIs.St}}</td>
+    <td>{{PDATA.data.batting.ODIs.Ct}}</td>
+    <td>{{PDATA.data.batting.ODIs.6s}}</td>
+    <td>{{PDATA.data.batting.ODIs.4s}}</td>
+    <td>{{PDATA.data.batting.ODIs.SR}}</td>
+    <td>{{PDATA.data.batting.ODIs.BF}}</td>
+    <td>{{PDATA.data.batting.ODIs.Ave}}</td>
+    <td>{{PDATA.data.batting.ODIs.HS}}</td>
+    <td>{{PDATA.data.batting.ODIs.Runs}}</td>
+    <td>{{PDATA.data.batting.ODIs.NO}}</td>
+  </tr>
+  <tr>
+    <td>tests</td>
+    <td>{{PDATA.data.batting.tests.50}}</td>
+    <td>{{PDATA.data.batting.tests.100}}</td>
+    <td>{{PDATA.data.batting.tests.St}}</td>
+    <td>{{PDATA.data.batting.tests.Ct}}</td>
+    <td>{{PDATA.data.batting.tests.6s}}</td>
+    <td>{{PDATA.data.batting.tests.4s}}</td>
+    <td>{{PDATA.data.batting.tests.SR}}</td>
+    <td>{{PDATA.data.batting.tests.BF}}</td>
+    <td>{{PDATA.data.batting.tests.Ave}}</td>
+    <td>{{PDATA.data.batting.tests.HS}}</td>
+    <td>{{PDATA.data.batting.tests.Runs}}</td>
+    <td>{{PDATA.data.batting.tests.NO}}</td>
+  </tr>
+</table>
+
+<h1>Bowling</h1>
+					<table width="100%" border="0" cellspacing="5" class="table table-striped" cellpadding="5">
+  <tr>
+    <td>League</td>
+    <td>10</td>
+    <td>5w</td>
+    <td>4w</td>
+    <td>SR</td>
+    <td>Econ</td>
+    <td>Ave</td>
+    <td>BBM</td>
+    <td>BBI</td>
+    <td>Wkts</td>
+    <td>Runs</td>
+    <td>Balls</td>
+    <td>Inns</td>
+  </tr>
+  <tr>
+    <td>twenty20</td>
+    <td>{{PDATA.data.bowling.twenty20.10}}</td>
+    <td>{{PDATA.data.bowling.twenty20.5w}}</td>
+    <td>{{PDATA.data.bowling.twenty20.4w}}</td>
+    <td>{{PDATA.data.bowling.twenty20.SR}}</td>
+    <td>{{PDATA.data.bowling.twenty20.Econ}}</td>
+    <td>{{PDATA.data.bowling.twenty20.Ave}}</td>
+    <td>{{PDATA.data.bowling.twenty20.BBM}}</td>
+    <td>{{PDATA.data.bowling.twenty20.BBI}}</td>
+    <td>{{PDATA.data.bowling.twenty20.Wkts}}</td>
+    <td>{{PDATA.data.bowling.twenty20.Runs}}</td>
+    <td>{{PDATA.data.bowling.twenty20.Balls}}</td>
+    <td>{{PDATA.data.bowling.twenty20.Inns}}</td>
+  </tr>
+  <tr>
+    <td>listA</td>
+    <td>{{PDATA.data.bowling.listA.10}}</td>
+    <td>{{PDATA.data.bowling.listA.5w}}</td>
+    <td>{{PDATA.data.bowling.listA.4w}}</td>
+    <td>{{PDATA.data.bowling.listA.SR}}</td>
+    <td>{{PDATA.data.bowling.listA.Econ}}</td>
+    <td>{{PDATA.data.bowling.listA.Ave}}</td>
+    <td>{{PDATA.data.bowling.listA.BBM}}</td>
+    <td>{{PDATA.data.bowling.listA.BBI}}</td>
+    <td>{{PDATA.data.bowling.listA.Wkts}}</td>
+    <td>{{PDATA.data.bowling.listA.Runs}}</td>
+    <td>{{PDATA.data.bowling.listA.Balls}}</td>
+    <td>{{PDATA.data.bowling.listA.Inns}}</td>
+  </tr>
+  <tr>
+    <td>firstClass</td>
+    <td>{{PDATA.data.bowling.firstClass.10}}</td>
+    <td>{{PDATA.data.bowling.firstClass.5w}}</td>
+    <td>{{PDATA.data.bowling.firstClass.4w}}</td>
+    <td>{{PDATA.data.bowling.firstClass.SR}}</td>
+    <td>{{PDATA.data.bowling.firstClass.Econ}}</td>
+    <td>{{PDATA.data.bowling.firstClass.Ave}}</td>
+    <td>{{PDATA.data.bowling.firstClass.BBM}}</td>
+    <td>{{PDATA.data.bowling.firstClass.BBI}}</td>
+    <td>{{PDATA.data.bowling.firstClass.Wkts}}</td>
+    <td>{{PDATA.data.bowling.firstClass.Runs}}</td>
+    <td>{{PDATA.data.bowling.firstClass.Balls}}</td>
+    <td>{{PDATA.data.bowling.firstClass.Inns}}</td>
+  </tr>
+  <tr>
+    <td>T20Is</td>
+     <td>{{PDATA.data.bowling.T20Is.10}}</td>
+    <td>{{PDATA.data.bowling.T20Is.5w}}</td>
+    <td>{{PDATA.data.bowling.T20Is.4w}}</td>
+    <td>{{PDATA.data.bowling.T20Is.SR}}</td>
+    <td>{{PDATA.data.bowling.T20Is.Econ}}</td>
+    <td>{{PDATA.data.bowling.T20Is.Ave}}</td>
+    <td>{{PDATA.data.bowling.T20Is.BBM}}</td>
+    <td>{{PDATA.data.bowling.T20Is.BBI}}</td>
+    <td>{{PDATA.data.bowling.T20Is.Wkts}}</td>
+    <td>{{PDATA.data.bowling.T20Is.Runs}}</td>
+    <td>{{PDATA.data.bowling.T20Is.Balls}}</td>
+    <td>{{PDATA.data.bowling.T20Is.Inns}}</td>
+  </tr>
+  <tr>
+    <td>ODIs</td>
+      <td>{{PDATA.data.bowling.ODIs.10}}</td>
+    <td>{{PDATA.data.bowling.ODIs.5w}}</td>
+    <td>{{PDATA.data.bowling.ODIs.4w}}</td>
+    <td>{{PDATA.data.bowling.ODIs.SR}}</td>
+    <td>{{PDATA.data.bowling.ODIs.Econ}}</td>
+    <td>{{PDATA.data.bowling.ODIs.Ave}}</td>
+    <td>{{PDATA.data.bowling.ODIs.BBM}}</td>
+    <td>{{PDATA.data.bowling.ODIs.BBI}}</td>
+    <td>{{PDATA.data.bowling.ODIs.Wkts}}</td>
+    <td>{{PDATA.data.bowling.ODIs.Runs}}</td>
+    <td>{{PDATA.data.bowling.ODIs.Balls}}</td>
+    <td>{{PDATA.data.bowling.ODIs.Inns}}</td>
+  </tr>
+  <tr>
+    <td>tests</td>
+     <td>{{PDATA.data.bowling.tests.10}}</td>
+    <td>{{PDATA.data.bowling.tests.5w}}</td>
+    <td>{{PDATA.data.bowling.tests.4w}}</td>
+    <td>{{PDATA.data.bowling.tests.SR}}</td>
+    <td>{{PDATA.data.bowling.tests.Econ}}</td>
+    <td>{{PDATA.data.bowling.tests.Ave}}</td>
+    <td>{{PDATA.data.bowling.tests.BBM}}</td>
+    <td>{{PDATA.data.bowling.tests.BBI}}</td>
+    <td>{{PDATA.data.bowling.tests.Wkts}}</td>
+    <td>{{PDATA.data.bowling.tests.Runs}}</td>
+    <td>{{PDATA.data.bowling.tests.Balls}}</td>
+    <td>{{PDATA.data.bowling.tests.Inns}}</td>
+  </tr>
+</table>
+
+				</div>
+				<!-- End Profile Content -->
+			</div>
+                </div>
+            </div>
+    </section>
