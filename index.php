@@ -82,7 +82,7 @@
         </div>
     </footer>
 
-    <!-- jQuery -->
+    <!-- jQuery     -->
     <script src="/vendors/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
